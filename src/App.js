@@ -5,12 +5,14 @@ import Navigation from "./Components/Navigation";
 import CategoryList from "./Pages/Site/CategoryList";
 import ProductList from "./Pages/Site/ProductList";
 import { ToastContainer, toast } from "react-toastify";
+import Footer from "./Components/Footer";
 
 export default class App extends Component {
   state = {
     products: [],
     currentCategory: null,
     cart: [],
+    totalCost: 0,
   };
 
   componentDidMount() {
@@ -46,7 +48,9 @@ export default class App extends Component {
     } else {
       newCart.push({ product: product, quantity: 1 });
     }
-    this.setState({ cart: newCart });
+    this.setState({ cart: newCart }, () => {
+      this.calculateTotalCost();
+    });
     toast.success(product.productName + " added to cart!", {
       position: "bottom-right",
       autoClose: 1000,
@@ -61,7 +65,9 @@ export default class App extends Component {
 
   removeFromCart = (product) => {
     let newCart = this.state.cart.filter((c) => c.product.id !== product.id);
-    this.setState({ cart: newCart });
+    this.setState({ cart: newCart }, () => {
+      this.calculateTotalCost();
+    });
     toast.error(product.productName + " removed from cart!", {
       position: "bottom-right",
       autoClose: 1000,
@@ -75,7 +81,9 @@ export default class App extends Component {
   };
 
   clearCart = () => {
-    this.setState({ cart: [] });
+    this.setState({ cart: [] }, () => {
+      this.calculateTotalCost();
+    });
     toast.error("Cart cleared!", {
       position: "bottom-right",
       autoClose: 1000,
@@ -86,6 +94,20 @@ export default class App extends Component {
       progress: undefined,
       theme: "light",
     });
+  };
+
+  calculateTotalCost = () => {
+    let totalCost = 0;
+
+    this.state.cart.forEach((item) => {
+      if (item.quantity && item.quantity > 1) {
+        totalCost += item.quantity * Number(item.product.unitPrice);
+      } else {
+        totalCost += Number(item.product.unitPrice);
+      }
+    });
+
+    this.setState({ totalCost });
   };
 
   render() {
@@ -99,6 +121,7 @@ export default class App extends Component {
           removeFromCart={this.removeFromCart}
           clearCart={this.clearCart}
           cart={this.state.cart}
+          totalCost={this.state.totalCost}
         />
         <Container fluid="fluid">
           <Row>
@@ -120,6 +143,7 @@ export default class App extends Component {
             </Col>
           </Row>
         </Container>
+        <Footer />
       </div>
     );
   }

@@ -1,8 +1,10 @@
 import React, { Component } from "react";
 import { FaShoppingCart } from "react-icons/fa";
 import { MdDelete } from "react-icons/md";
+import { MdCleaningServices } from "react-icons/md";
 import {
   Badge,
+  Button,
   DropdownItem,
   DropdownMenu,
   DropdownToggle,
@@ -14,7 +16,16 @@ export default class CardSummary extends Component {
     return (
       <div>
         <UncontrolledDropdown className="mr-2">
-          <DropdownToggle className="h-[40px]" color="dark">
+          <DropdownToggle
+            className="h-[40px]"
+            color="success"
+            style={{
+              display: "flex",
+              justifyContent: "center",
+              alignItems: "center",
+            }}
+          >
+            <FaShoppingCart className="mr-1" />
             {this.props.cart.length}
           </DropdownToggle>
           <DropdownMenu>
@@ -27,9 +38,14 @@ export default class CardSummary extends Component {
                   alignItems: "center",
                 }}
               >
-                {item.product.productName}
+                <Badge className="mx-1" color="dark">
+                  {item.product.unitPrice}$
+                </Badge>
+                <span className="font-semibold">
+                  {item.product.productName}
+                </span>
                 <Badge className="ml-1" color="success">
-                  {item.quantity}
+                  x{item.quantity}
                 </Badge>
                 <Badge
                   onClick={() => this.props.removeFromCart(item.product)}
@@ -47,9 +63,30 @@ export default class CardSummary extends Component {
                 justifyContent: "end",
                 alignItems: "center",
               }}
-              onClick={() => this.props.clearCart()}
             >
-              Reset
+              <span className="font-semibold">Total: </span>
+              <span className="ml-1 text-blue-600 font-bold">
+                {this.props.totalCost}$
+              </span>
+            </DropdownItem>
+            <DropdownItem divider />
+            <DropdownItem
+              style={{
+                display: "flex",
+                justifyContent: "end",
+              }}
+            >
+              <Button
+                color="danger"
+                style={{
+                  display: "flex",
+                  justifyContent: "end",
+                  alignItems: "center",
+                }}
+                onClick={() => this.props.clearCart()}
+              >
+                Clear Cart <MdCleaningServices className="ml-1" />
+              </Button>
             </DropdownItem>
           </DropdownMenu>
         </UncontrolledDropdown>
@@ -61,7 +98,7 @@ export default class CardSummary extends Component {
     return (
       <div>
         <UncontrolledDropdown className="mr-2">
-          <DropdownToggle disabled className="h-[40px]" color="dark">
+          <DropdownToggle disabled className="h-[40px]">
             <FaShoppingCart />
           </DropdownToggle>
         </UncontrolledDropdown>

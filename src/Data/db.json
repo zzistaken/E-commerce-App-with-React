@@ -9,6 +9,7 @@
     { "id": 7, "categoryName": "Books and Media" },
     { "id": 8, "categoryName": "Travel and Outdoor" }
   ],
+
   "products": [
     {
       "id": 1,
@@ -16,7 +17,8 @@
       "productName": "Smartphone",
       "quantityPerUnit": "1 unit",
       "unitPrice": "1500",
-      "unitsInStock": 53
+      "unitsInStock": 53,
+      "imageUrl": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQL9U744X-th5lhqeMtBpl1XVN5H6O1FdK0sGNBM-rhe2RZyaY17fN7LDujS_8lpnUlVuzA5v_ekvq9R4z4KaCTZMlKMlA2DsZsu_Rg7tc9k_xuYCszzSCsr6U&usqp=CAE"
     },
     {
       "id": 2,
@@ -24,7 +26,8 @@
       "productName": "Laptop",
       "quantityPerUnit": "1 unit",
       "unitPrice": "1200",
-      "unitsInStock": 17
+      "unitsInStock": 17,
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcR5CbUpIwc8cNhc-EqWxNT4W8ciCxCkJ0B5ZmfARVT5IV7LYN7Zc7wI8bMox3vGEhd3U3KFSF7NW7Av-ypjZ6Us3JKYWd6SFAFC80NObNquwKjsTWJzUreOkB8&usqp=CAE"
     },
     {
       "id": 3,
@@ -32,7 +35,8 @@
       "productName": "Wireless Headphones",
       "quantityPerUnit": "1 unit",
       "unitPrice": "100",
-      "unitsInStock": 53
+      "unitsInStock": 53,
+      "imageUrl": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTcIRFVmx-2FzqgQaF1veSxGZHOvuwceYjT3KZFHLmXGTU3RCfDRk0TRE1x6cgfiV6ARgZUADJmh9VaZAxmNggBvxWoh1axN4H8R6ygOtJspTYG4U1nhVetXU4&usqp=CAE"
     },
     {
       "id": 4,
@@ -40,7 +44,8 @@
       "productName": "Running Shoes",
       "quantityPerUnit": "1 pair",
       "unitPrice": "120",
-      "unitsInStock": 80
+      "unitsInStock": 80,
+      "imageUrl": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRttXHqMqY2wix0WTUXb0pWgIW17lrxXf4jyaBNwWus0awmhw_EifmYdtAW-8NAWAEBYqACMrRFl5zieW7o1mw3n5xLdI6CbdQbf4JWxXt0Jno5ACAdKF8k4w&usqp=CAE"
     },
     {
       "id": 5,
@@ -48,7 +53,8 @@
       "productName": "Soft Blanket",
       "quantityPerUnit": "1 unit",
       "unitPrice": "25",
-      "unitsInStock": 120
+      "unitsInStock": 120,
+      "imageUrl": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTPesg_A1vF7auGk9bJbQYDZbSiHWSZ9E_AOC-SuZfZaQYWFPjW3LBwZ4-R5cI8RVM9w0giE33ovXJ4mjzM2het4JnNgjDFd4beiXGS1UXoZIfXH2BpNMNDAg&usqp=CAE"
     },
     {
       "id": 6,
@@ -56,7 +62,8 @@
       "productName": "Wooden Puzzle",
       "quantityPerUnit": "1 unit",
       "unitPrice": "15",
-      "unitsInStock": 25
+      "unitsInStock": 25,
+      "imageUrl": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSW3sdeXw9yo-MCVszBhCBET3mr3vX5u5eAPOAD4RW3xXiRkQ3KM5ZVnCcbQimd2F9-zhfVOzkXZt9BEj1EZXaokz_JSJ4GuQ&usqp=CAE"
     },
     {
       "id": 7,
@@ -64,7 +71,8 @@
       "productName": "Camping Tent",
       "quantityPerUnit": "1 unit",
       "unitPrice": "150",
-      "unitsInStock": 30
+      "unitsInStock": 30,
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRVM5cxWWierOBOKRbIz0EYMlb7rejVWYC91Q8zxAEyxuRLAd63jP7lBSxCC3hUvbVd_oIVwlUaqJXQ3WAsR0qA9UI3n9AsaN7G0zuyBdC4Ppt0EyF5xtC7xg&usqp=CAE"
     },
     {
       "id": 8,
@@ -72,7 +80,8 @@
       "productName": "Organic Skincare Set",
       "quantityPerUnit": "1 set",
       "unitPrice": "60",
-      "unitsInStock": 60
+      "unitsInStock": 60,
+      "imageUrl": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQ04lGc5tWb54FIQjiFdfN1Mi6KSj30xV3W16k5KyuFNMxxNBjLiOopD9hOjz69kJvJ0Hb3idteNXhk7PzqSuWwVS1lS9x2p1rYXKirjCMRP8We7AVuM9-jyA&usqp=CAE"
     },
     {
       "id": 9,
@@ -80,7 +89,8 @@
       "productName": "LED Desk Lamp",
       "quantityPerUnit": "1 unit",
       "unitPrice": "35",
-      "unitsInStock": 25
+      "unitsInStock": 25,
+      "imageUrl": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTeqRxE8GMwCuIJ_fVuUqvGlsd2chPqfIASxyB-_umhcvBn0QGN9rR86xoEDwEiIvptoN-GLi2tLtTfd7jfajXCCl3vzC6lEatvzHk69bSsjRusC5aAqoz4&usqp=CAE"
     },
     {
       "id": 10,
@@ -88,7 +98,8 @@
       "productName": "Ceramic Plant Pot",
       "quantityPerUnit": "1 unit",
       "unitPrice": "20",
-      "unitsInStock": 40
+      "unitsInStock": 40,
+      "imageUrl": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSCS2zDEyVeQKzOWwIBi9rB-fB3ld994l7uiHT3IGfAcLAC_EuLBfHpu1_KcLpbUz2uGPCXMo8TERv8AN4WV7fPEGSFEGmOUCGdzEALNGXWPKZpWn8qJi4UKg&usqp=CAE"
     },
     {
       "id": 11,
@@ -96,15 +107,17 @@
       "productName": "Bestseller Novel",
       "quantityPerUnit": "1 unit",
       "unitPrice": "10",
-      "unitsInStock": 75
+      "unitsInStock": 75,
+      "imageUrl": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSwww6C4E6_XsUn3uSndV9HXhsR1W6X0XJVmcm1_A94ML4w3fEmj6om6eDQkKTQOIzMc4RiWmZgxqdFCqTgkaJTeZk_GnUMvRZ-nztK71j7PcgZoT-EzBMlHA&usqp=CAE"
     },
     {
       "id": 12,
-      "categoryId": 7,
+      "categoryId": 1,
       "productName": "Wireless Earbuds",
       "quantityPerUnit": "1 pair",
       "unitPrice": "50",
-      "unitsInStock": 22
+      "unitsInStock": 22,
+      "imageUrl": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQOM2sJebUjEcmkXgcaslhzXPdn0w15n8wDaAW9X7Lbt-N-tG1KGYJDwHmjTXJ-Qj2zl0hmHX0npRnFIYqoMBMUicnOHbdIV3F9b0KhjfPohCXg7zJTIZrn&usqp=CAE"
     },
     {
       "id": 13,
@@ -112,7 +125,8 @@
       "productName": "RC Drone",
       "quantityPerUnit": "1 unit",
       "unitPrice": "80",
-      "unitsInStock": 18
+      "unitsInStock": 18,
+      "imageUrl": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcT9DjEDeYGHyxjAcFWsjW0GJOkbYiobKRYygdJY35zGTbrZFTfkIqGX9XlR8BHi5j-dPTTw-rgrtXtEj0JEAg-t1tS7kDDY&usqp=CAE"
     },
     {
       "id": 14,
@@ -120,7 +134,8 @@
       "productName": "Leather Wallet",
       "quantityPerUnit": "1 unit",
       "unitPrice": "30",
-      "unitsInStock": 45
+      "unitsInStock": 45,
+      "imageUrl": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQRflamvTPnL9wpDj766l-C8QfLG1FGC6B-Dln4Ki4wpRGVbA7rR_to4p4YYMFkg1OfvKy6OSynGwwAYgxLI6oyfhMEcmxCl41eEzCwwztBMXFCtq-r53mXK0Ps&usqp=CAE"
     },
     {
       "id": 15,
@@ -128,7 +143,8 @@
       "productName": "Bicycle Helmet",
       "quantityPerUnit": "1 unit",
       "unitPrice": "25",
-      "unitsInStock": 50
+      "unitsInStock": 50,
+      "imageUrl": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTvkvSqLGcI7z8B3sPiyKxazTy7yghSmDVRAjHQlwdt5Jx4OAivkcJQxR4Q1fkDWSaIPNFXLBddB0OLtyMXnJU7_q9uJUX5EMngw3bPfNESlOVWKfaBr8H9&usqp=CAE"
     },
     {
       "id": 16,
@@ -136,7 +152,8 @@
       "productName": "Aloe Vera Gel",
       "quantityPerUnit": "1 bottle",
       "unitPrice": "15",
-      "unitsInStock": 65
+      "unitsInStock": 65,
+      "imageUrl": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSWhppa-pxyDqGW2mpWAJ53rr5_S5ZMlnppI1BSII3M2RtKSqCzOcLFSK7kJjRTRPK9sFGEzhxZnDemPPkbsaEooqYkEVi0VU3D3rtsnqjXbj7Sxb63vjiQIw&usqp=CAE"
     },
     {
       "id": 17,
@@ -144,15 +161,17 @@
       "productName": "Travel Backpack",
       "quantityPerUnit": "1 unit",
       "unitPrice": "70",
-      "unitsInStock": 33
+      "unitsInStock": 33,
+      "imageUrl": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSjlJWAjlgDVMvd40VP551uE0ifGvgcWmrl-xs9GdeU73n-6Y0ARYpo3L4LwOfoR4gKMocMu2gRSSkO1OIvUVwy-GZjWc1YukBfW_VmnWgGyoLDtS2vHPgO&usqp=CAE"
     },
     {
       "id": 18,
-      "categoryId": 8,
+      "categoryId": 1,
       "productName": "Portable Charger",
       "quantityPerUnit": "1 unit",
       "unitPrice": "40",
-      "unitsInStock": 42
+      "unitsInStock": 42,
+      "imageUrl": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcS_Y6tUB2pCjUzo17lK1H-wB-1X3mDH16mprONoKCD0qSwCL9tSZutIcQRZ2SFoBfmbyehh_f9sT-ALA5tH5m-a0g804XgqACSjbXKto-nw8jCRdyNoYMPzoX0&usqp=CAE"
     },
     {
       "id": 19,
@@ -160,7 +179,8 @@
       "productName": "Faux Fur Throw",
       "quantityPerUnit": "1 unit",
       "unitPrice": "28",
-      "unitsInStock": 20
+      "unitsInStock": 20,
+      "imageUrl": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRNdDv0qlUPvTv_oOkuNzX7lh5fpA9YpqLMecDB2BAN28OtFXiN0pA1Oz9w8YRU2qZqYugJYszzBlK-o9nlmb3G-Vq4EsCK6Ztk6EBzLPjA&usqp=CAE"
     },
     {
       "id": 20,
@@ -168,7 +188,8 @@
       "productName": "Board Game Set",
       "quantityPerUnit": "1 set",
       "unitPrice": "18",
-      "unitsInStock": 28
+      "unitsInStock": 28,
+      "imageUrl": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcTIOSS3o51wt0wTEFoEiqI4_AaysGDG-pfSdEArdneS4uliXiil5NLe3krjRuXiCAAjQW7Pxy-xaPH2cDUQZzoNC0iDUTURqcK28nBo-VELOBl0_opHTgVV7A&usqp=CAE"
     },
     {
       "id": 21,
@@ -176,7 +197,8 @@
       "productName": "Sunglasses",
       "quantityPerUnit": "1 pair",
       "unitPrice": "50",
-      "unitsInStock": 15
+      "unitsInStock": 15,
+      "imageUrl": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQ_2OHcTvulFRWNiTFNgA-9wVM7ivZRDfCKcofdBYztyfWJsfG9x-knEaZQTiAZsr3zOlwmP7DxSJZN0nhimM9Bv5HDIvPuCZVJqSJa4kjJ&usqp=CAE"
     },
     {
       "id": 22,
@@ -184,7 +206,8 @@
       "productName": "Smartwatch",
       "quantityPerUnit": "1 unit",
       "unitPrice": "200",
-      "unitsInStock": 10
+      "unitsInStock": 10,
+      "imageUrl": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRVHfTl2KrOvsIMCiWX-jN_wVSzeouYru9FuZaC4e_x6vFj581tV_BxRCX2QHxo3NspyfQ_pESGs8maMNx46HoZQ6IFYRI3mGU6d8JQ7A4XIeJ22k97cDmKukw&usqp=CAE"
     },
     {
       "id": 23,
@@ -192,7 +215,8 @@
       "productName": "Yoga Mat",
       "quantityPerUnit": "1 unit",
       "unitPrice": "20",
-      "unitsInStock": 60
+      "unitsInStock": 60,
+      "imageUrl": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSu-glM_kOTJ9krvLpJ_XFxQaU8dadXXLXdnbebR0hax8JVEshSEGB_MFk24-pM6xVplRL1yy-aYg-zDWJmsoflFg_GdStFKVhwQap5f_pAYVdOfqhD1mAjaw&usqp=CAE"
     },
     {
       "id": 24,
@@ -200,7 +224,8 @@
       "productName": "Essential Oil Diffuser",
       "quantityPerUnit": "1 unit",
       "unitPrice": "35",
-      "unitsInStock": 25
+      "unitsInStock": 25,
+      "imageUrl": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQdEtU1OHa97_uc-bnLcQcn0BBFnXnAY5QZRFuYzcbBImQ3t45BLK5mmItZ7oSCTbnym_mysCYC6T6lEBX3GSHEWPC4ZRAXupBpDnNP_UbEOVYw0wqzqBBUnXg&usqp=CAE"
     },
     {
       "id": 25,
@@ -208,7 +233,8 @@
       "productName": "Cookbook",
       "quantityPerUnit": "1 unit",
       "unitPrice": "15",
-      "unitsInStock": 40
+      "unitsInStock": 40,
+      "imageUrl": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQ5Pe9TGpbIqRZNeDwotDyrh9yXUIgGU5wv2DSrH1jFuTecSAogROUnxiEC2yBQH7tvCdIvesCrQ75qxplUArcYUc9M-7JxMnZCTDzvbVs&usqp=CAE"
     },
     {
       "id": 26,
@@ -216,7 +242,8 @@
       "productName": "Facial Cleanser",
       "quantityPerUnit": "1 bottle",
       "unitPrice": "12",
-      "unitsInStock": 55
+      "unitsInStock": 55,
+      "imageUrl": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcTX91jobAX8FSebiNE4FtjfRQrUTDCsNUBcGpQQ3q3BaGGYONoDBPb8VEG-gOK5PIU8HWd0ZLD6CZO80pYqLl3tGx8kgpLy8bP90pcFkO3Njr9T6CuTKU4T&usqp=CAE"
     },
     {
       "id": 27,
@@ -224,7 +251,8 @@
       "productName": "Jigsaw Puzzle",
       "quantityPerUnit": "1 unit",
       "unitPrice": "10",
-      "unitsInStock": 30
+      "unitsInStock": 30,
+      "imageUrl": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTzwCp0_oW2eElAZHmUA_S2sNJ_7orWW8M49emXk65SHL13a1SVD15qEC5dVoICOj40FfIh7WAC3D8v2dDzwrsB_zZCM3oToMXub97nOcj2MeG7xwYh3cs1NZs&usqp=CAE"
     },
     {
       "id": 28,
@@ -232,7 +260,8 @@
       "productName": "Travel Pillow",
       "quantityPerUnit": "1 unit",
       "unitPrice": "18",
-      "unitsInStock": 22
+      "unitsInStock": 22,
+      "imageUrl": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSLoPK_GUJrY9SaQUNS0qWS-sCdTPupFl5laVF5au41UFabWi-Q08vemQz2JdeyIBshMfUPHRcqLZNTaipiwFp3m9JKBh0pKYRHVt8Ls1QEecqBKLf4fZ9wXik&usqp=CAE"
     },
     {
       "id": 29,
@@ -240,7 +269,8 @@
       "productName": "Winter Scarf",
       "quantityPerUnit": "1 unit",
       "unitPrice": "12",
-      "unitsInStock": 45
+      "unitsInStock": 45,
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRJS-ULU_9xAkBd11qPhdi7H44Yc1GL-tAfmVpNj-sFgDMaIUTht0qKFM3b13Ww3lP4spqWcjRWWFhF68dWgUN2RAnIg-HyVxYZeur9x3oKVMfLAdw-zq-p5pc&usqp=CAE"
     },
     {
       "id": 30,
@@ -248,7 +278,8 @@
       "productName": "Dumbbell Set",
       "quantityPerUnit": "1 set",
       "unitPrice": "50",
-      "unitsInStock": 15
+      "unitsInStock": 15,
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRK9_3b3yX_eUs5vh6K05jtMaL_YlxXjAa1_DVKS8DZah7Mwt0K74bzd3VFPhobj4-pixP5FBcvgw6hLIbJnx_8DmFYBg-U4A&usqp=CAE"
     },
     {
       "id": 31,
@@ -256,7 +287,8 @@
       "productName": "Cushion Cover",
       "quantityPerUnit": "1 unit",
       "unitPrice": "8",
-      "unitsInStock": 35
+      "unitsInStock": 35,
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSzNo3KZFJv_xWqZPXRBEeJ154Ota7sgGJOFOiJ3itvDkDfSWhXRplx__O-Lg8yvwF3UiyZBsC_waibKCgie7PVK2bIK0MOXQ&usqp=CAE"
     },
     {
       "id": 32,
@@ -264,7 +296,8 @@
       "productName": "Mystery Novel",
       "quantityPerUnit": "1 unit",
       "unitPrice": "12",
-      "unitsInStock": 30
+      "unitsInStock": 30,
+      "imageUrl": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcTC7A1Pbt5dSZMGqdgEINo_4ck64SdbNQQA8MKOvqGYV0rue_nJA7ZJHYfOqaKc6NsEw6cHrzcQBw9kLkYkhNoZYqdMKmx7KWywwAXsfyq4Hqb0ILjIj6e6Kw&usqp=CAE"
     },
     {
       "id": 33,
@@ -272,7 +305,8 @@
       "productName": "Remote Control Car",
       "quantityPerUnit": "1 unit",
       "unitPrice": "25",
-      "unitsInStock": 20
+      "unitsInStock": 20,
+      "imageUrl": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSm-q9tX-9MXbnDtZcnBnXAiHhLA9IFNBUvJG03ZUpnW2oFQrO0ZyMMVqa7jjLV7_NepE5CoIJ-rENgto3byVLcAYMq0O_1yPIjH2KjX3tw&usqp=CAE"
     },
     {
       "id": 34,
@@ -280,7 +314,8 @@
       "productName": "Gaming Mouse",
       "quantityPerUnit": "1 unit",
       "unitPrice": "40",
-      "unitsInStock": 18
+      "unitsInStock": 18,
+      "imageUrl": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcT9cVjawy-jsRjkir7lf6qhYxokFqwDNGE3TLFUkk0E9aBmS8sqwi2QsLTBAfIKo9qVncynQGHHsZaygKs55GScXdpyCmE9wA_wSMgpQPdx414XyMnbXMZFHi7y&usqp=CAE"
     },
     {
       "id": 35,
@@ -288,7 +323,8 @@
       "productName": "Anti-Aging Cream",
       "quantityPerUnit": "1 jar",
       "unitPrice": "30",
-      "unitsInStock": 25
+      "unitsInStock": 25,
+      "imageUrl": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcStj1fKZgXQUYCMww87BfNnhTVjOfV9ie1qCZot6T-wOQrqWadEZ4v48Rw8t47p9GL8gyIa59BojBt8OSCkGX3nfKR5O6yQ_egiyiGvAW1IO00vxSN0NskoqQ&usqp=CAE"
     },
     {
       "id": 36,
@@ -296,7 +332,8 @@
       "productName": "Travel Blanket",
       "quantityPerUnit": "1 unit",
       "unitPrice": "20",
-      "unitsInStock": 40
+      "unitsInStock": 40,
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQqNjMktzDQUGRhsXWcHpdWnJLcYkWdA1MBic9uxLPrmh1Nh7rhxT1mkUeJyHnUMCqVyIKwD0oXjIRn5Iq-DNPYBeVelj1ycbrcuz_61o03dcjTlIHrOCX7MdJZ&usqp=CAE"
     },
     {
       "id": 37,
@@ -304,7 +341,8 @@
       "productName": "Desk Organizer",
       "quantityPerUnit": "1 unit",
       "unitPrice": "15",
-      "unitsInStock": 28
+      "unitsInStock": 28,
+      "imageUrl": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcTOwKK41TA8kXQpJUzWJjJcxo2WV3gKnnAOA2G2NgwINdo5_UhW6YWPZZvxH9bfWn6P0NGEliC6AVyfpJOiFPQWmQRpbP5QXQ&usqp=CAE"
     },
     {
       "id": 38,
@@ -312,7 +350,8 @@
       "productName": "Hiking Boots",
       "quantityPerUnit": "1 pair",
       "unitPrice": "60",
-      "unitsInStock": 12
+      "unitsInStock": 12,
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQNg8uDk79hgguvVPj7UMSK8vfAZOTOCxdLb01Vri7EyROUWGckStvoCojPgE3PBH3VINIRDb2MsKeLwE3QoYApNaI2QvbwFsl2fg-RlWMytj1kgRYCl9ki&usqp=CAE"
     },
     {
       "id": 39,
@@ -320,7 +359,8 @@
       "productName": "Painting Set",
       "quantityPerUnit": "1 set",
       "unitPrice": "25",
-      "unitsInStock": 15
+      "unitsInStock": 15,
+      "imageUrl": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSPl2EAv5Wlaep8ulbmR8AMp4DP3Fy1FomLlCYTvaNQE39sxNUQ7EObvp7WgD1Pz9EkFNmSMeEVg3S8zZgJlX-ShEWNq50c3g&usqp=CAE"
     },
     {
       "id": 40,
@@ -328,7 +368,8 @@
       "productName": "Biography Book",
       "quantityPerUnit": "1 unit",
       "unitPrice": "18",
-      "unitsInStock": 25
+      "unitsInStock": 25,
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSRhrkKoQSFxH1Wys7WsZ7SIL4fWhPTLW9ROkwcus8-00vayFvDGTlJQsW5uKWVK_ncQvDky322HHH6hvyGKbR9Cy1aiVLBHd5i4oWvY-4N-EgeJV0mpv3e&usqp=CAE"
     },
     {
       "id": 41,
@@ -336,7 +377,8 @@
       "productName": "Leather Backpack",
       "quantityPerUnit": "1 unit",
       "unitPrice": "45",
-      "unitsInStock": 20
+      "unitsInStock": 20,
+      "imageUrl": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSFqUBW-W4VON_ISE84VKYynFgk9adGvPG3x53xwpivWWNwt2BR6X3Am39UVN0eGDcQiM6DP008Tec3F2bmlmbT-F3zUi_x&usqp=CAE"
     },
     {
       "id": 42,
@@ -344,7 +386,8 @@
       "productName": "Sunscreen Lotion",
       "quantityPerUnit": "1 bottle",
       "unitPrice": "10",
-      "unitsInStock": 33
+      "unitsInStock": 33,
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcToUAZbuoIFeIgIXpyEpmuyNTyucJKvc6kErf3zI9JOnjiuVMAc3jONtfUTQkWUpf0k5WtAMrAWmFeC7xuBIVGj0TfurWI2&usqp=CAE"
     },
     {
       "id": 43,
@@ -352,7 +395,8 @@
       "productName": "Bluetooth Speaker",
       "quantityPerUnit": "1 unit",
       "unitPrice": "35",
-      "unitsInStock": 15
+      "unitsInStock": 15,
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQdTk8o_ZCjfCgI9S8HyYKSWQeKpZARKoA4P8M6dwHRz-eeERdmPZ_ZfdMQ_SyTxy1BpoP-8byR50VTMf9qS2fJr9-n-aWsKdgyYnbEaCsYvHx6rXtvNtTX90k&usqp=CAE"
     },
     {
       "id": 44,
@@ -360,7 +404,8 @@
       "productName": "Travel Toiletry Kit",
       "quantityPerUnit": "1 set",
       "unitPrice": "15",
-      "unitsInStock": 40
+      "unitsInStock": 40,
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTaNiv0NG5gyaTmk3tWXzHL8xNEieAiFwG2TfIntO9pMefeaI2GzcvFwW6EIEsSq1FD8pkUZjHnV3YAumHIH6M73__HyhlC5giHioNm402JzqM7KLEEqgfesQ&usqp=CAE"
     },
     {
       "id": 45,
@@ -368,7 +413,8 @@
       "productName": "Throw Pillow",
       "quantityPerUnit": "1 unit",
       "unitPrice": "8",
-      "unitsInStock": 22
+      "unitsInStock": 22,
+      "imageUrl": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQst9tIyKegiQnEg1LOQ1C_hKYfEsoOHcKl7VCFzcY9Q_-Jr9hOCbVg7A1YYrRkb4NIiEqOLDt-2Syfdmc1e6pGQz5AU_qe&usqp=CAE"
     },
     {
       "id": 46,
@@ -376,15 +422,17 @@
       "productName": "Model Airplane Kit",
       "quantityPerUnit": "1 set",
       "unitPrice": "30",
-      "unitsInStock": 18
+      "unitsInStock": 18,
+      "imageUrl": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcR-05tqgX1l9uXtsiH-mkfynweZSZIG1e8sKOyCQItbbuLHENIHkwosJzEwEmyBHlH1aNwVrjdfyw3UYPUIJSFjkqihzqSxTr_7IDB2p7P4_kjrmCQNQEapnw&usqp=CAE"
     },
     {
       "id": 47,
-      "categoryId": 2,
+      "categoryId": 1,
       "productName": "Fitness Tracker",
       "quantityPerUnit": "1 unit",
       "unitPrice": "50",
-      "unitsInStock": 25
+      "unitsInStock": 25,
+      "imageUrl": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTtr-U04GIAHpg4ReSCtqN_JDAnDmbC0rHFVB4nc2N4It-Y49CP4O5GSq4WWWA33YS8pPgWZfC9SLIYu_2OySo9V4qQxNnfELp4ouSGcCuete9_28ku6wP-Gw&usqp=CAE"
     },
     {
       "id": 48,
@@ -392,7 +440,8 @@
       "productName": "Basketball",
       "quantityPerUnit": "1 unit",
       "unitPrice": "15",
-      "unitsInStock": 30
+      "unitsInStock": 30,
+      "imageUrl": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSVzpKEvlv-lZaw1hXyU7nQC9L_Y5dfbIoBF4sMGU_vmBjaIImc49l4IZ_oDlhQsbE0XavxBgpNB0U_9V7ElslcQmdCKKu5JP3si97b2hA0JJEPvMgHiEioAw&usqp=CAE"
     },
     {
       "id": 49,
@@ -400,7 +449,8 @@
       "productName": "Face Mask Set",
       "quantityPerUnit": "1 set",
       "unitPrice": "12",
-      "unitsInStock": 28
+      "unitsInStock": 28,
+      "imageUrl": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSk7i3_jKNVdvxt3Si_ku2JODv9itjGq2HOEyHAFnt3-WLlvSaqd51S4A0k6dMKmSo3Dqs6E1s8TIaiC9kdNECxWSUFNbX0WUe6QcDuZwknac-sJcZ2x4J7&usqp=CAE"
     },
     {
       "id": 50,
@@ -408,7 +458,8 @@
       "productName": "Science Fiction Book",
       "quantityPerUnit": "1 unit",
       "unitPrice": "10",
-      "unitsInStock": 35
+      "unitsInStock": 35,
+      "imageUrl": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQZJftDFWdWa9KKRi7xvrzywK4RZC3nbc_lT1I-asTTWwzJW1C12_iEgXKOOxcLZypWrud_T0qfM-o7MbRjqOqVyVGoleXhMljTRV8DBB_Os9eH8QYoVCIs&usqp=CAE"
     }
   ]
 }

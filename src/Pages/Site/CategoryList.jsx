@@ -1,10 +1,6 @@
 import React, { Component } from "react";
-import {
-  Button,
-  ListGroup,
-  ListGroupItem,
-  ListGroupItemHeading,
-} from "reactstrap";
+import { FaFilterCircleXmark } from "react-icons/fa6";
+import { Button, ListGroup, ListGroupItem } from "reactstrap";
 
 export default class CategoryList extends Component {
   state = {
@@ -25,13 +21,18 @@ export default class CategoryList extends Component {
   render() {
     return (
       <div>
+        <h5 className="mb-[12px]">{this.props.title}</h5>
         <ListGroup>
-          <ListGroupItemHeading>{this.props.title}</ListGroupItemHeading>
           {this.state.categories.map((category) => (
             <ListGroupItem
+              active={
+                category.categoryName === this.props.currentCategory
+                  ? true
+                  : false
+              }
               onClick={() => this.props.changeCategory(category)}
               key={category.id}
-              className="overflow-hidden"
+              className="overflow-hidden hover:cursor-pointer"
             >
               {category.categoryName}
             </ListGroupItem>
@@ -39,10 +40,15 @@ export default class CategoryList extends Component {
           {this.props.currentCategory !== null && (
             <Button
               onClick={() => this.props.clearCategoryFilter()}
-              style={{ borderRadius: "0 0 0.5rem 0.5rem" }}
+              style={{
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
+                borderRadius: "0 0 0.5rem 0.5rem",
+              }}
               color="danger"
             >
-              Clear Filter
+              Clear Filter <FaFilterCircleXmark className="ml-1" />
             </Button>
           )}
         </ListGroup>
