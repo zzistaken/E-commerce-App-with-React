@@ -1,0 +1,414 @@
+{
+  "categories": [
+    { "id": 1, "categoryName": "Electronics" },
+    { "id": 2, "categoryName": "Fashion" },
+    { "id": 3, "categoryName": "Home and Living" },
+    { "id": 4, "categoryName": "Beauty and Personal Care" },
+    { "id": 5, "categoryName": "Sports and Outdoor" },
+    { "id": 6, "categoryName": "Toys and Hobbies" },
+    { "id": 7, "categoryName": "Books and Media" },
+    { "id": 8, "categoryName": "Travel and Outdoor" }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "categoryId": 1,
+      "productName": "Smartphone",
+      "quantityPerUnit": "1 unit",
+      "unitPrice": "1500",
+      "unitsInStock": 53
+    },
+    {
+      "id": 2,
+      "categoryId": 1,
+      "productName": "Laptop",
+      "quantityPerUnit": "1 unit",
+      "unitPrice": "1200",
+      "unitsInStock": 17
+    },
+    {
+      "id": 3,
+      "categoryId": 1,
+      "productName": "Wireless Headphones",
+      "quantityPerUnit": "1 unit",
+      "unitPrice": "100",
+      "unitsInStock": 53
+    },
+    {
+      "id": 4,
+      "categoryId": 5,
+      "productName": "Running Shoes",
+      "quantityPerUnit": "1 pair",
+      "unitPrice": "120",
+      "unitsInStock": 80
+    },
+    {
+      "id": 5,
+      "categoryId": 3,
+      "productName": "Soft Blanket",
+      "quantityPerUnit": "1 unit",
+      "unitPrice": "25",
+      "unitsInStock": 120
+    },
+    {
+      "id": 6,
+      "categoryId": 6,
+      "productName": "Wooden Puzzle",
+      "quantityPerUnit": "1 unit",
+      "unitPrice": "15",
+      "unitsInStock": 25
+    },
+    {
+      "id": 7,
+      "categoryId": 8,
+      "productName": "Camping Tent",
+      "quantityPerUnit": "1 unit",
+      "unitPrice": "150",
+      "unitsInStock": 30
+    },
+    {
+      "id": 8,
+      "categoryId": 4,
+      "productName": "Organic Skincare Set",
+      "quantityPerUnit": "1 set",
+      "unitPrice": "60",
+      "unitsInStock": 60
+    },
+    {
+      "id": 9,
+      "categoryId": 3,
+      "productName": "LED Desk Lamp",
+      "quantityPerUnit": "1 unit",
+      "unitPrice": "35",
+      "unitsInStock": 25
+    },
+    {
+      "id": 10,
+      "categoryId": 3,
+      "productName": "Ceramic Plant Pot",
+      "quantityPerUnit": "1 unit",
+      "unitPrice": "20",
+      "unitsInStock": 40
+    },
+    {
+      "id": 11,
+      "categoryId": 7,
+      "productName": "Bestseller Novel",
+      "quantityPerUnit": "1 unit",
+      "unitPrice": "10",
+      "unitsInStock": 75
+    },
+    {
+      "id": 12,
+      "categoryId": 7,
+      "productName": "Wireless Earbuds",
+      "quantityPerUnit": "1 pair",
+      "unitPrice": "50",
+      "unitsInStock": 22
+    },
+    {
+      "id": 13,
+      "categoryId": 6,
+      "productName": "RC Drone",
+      "quantityPerUnit": "1 unit",
+      "unitPrice": "80",
+      "unitsInStock": 18
+    },
+    {
+      "id": 14,
+      "categoryId": 2,
+      "productName": "Leather Wallet",
+      "quantityPerUnit": "1 unit",
+      "unitPrice": "30",
+      "unitsInStock": 45
+    },
+    {
+      "id": 15,
+      "categoryId": 5,
+      "productName": "Bicycle Helmet",
+      "quantityPerUnit": "1 unit",
+      "unitPrice": "25",
+      "unitsInStock": 50
+    },
+    {
+      "id": 16,
+      "categoryId": 4,
+      "productName": "Aloe Vera Gel",
+      "quantityPerUnit": "1 bottle",
+      "unitPrice": "15",
+      "unitsInStock": 65
+    },
+    {
+      "id": 17,
+      "categoryId": 8,
+      "productName": "Travel Backpack",
+      "quantityPerUnit": "1 unit",
+      "unitPrice": "70",
+      "unitsInStock": 33
+    },
+    {
+      "id": 18,
+      "categoryId": 8,
+      "productName": "Portable Charger",
+      "quantityPerUnit": "1 unit",
+      "unitPrice": "40",
+      "unitsInStock": 42
+    },
+    {
+      "id": 19,
+      "categoryId": 3,
+      "productName": "Faux Fur Throw",
+      "quantityPerUnit": "1 unit",
+      "unitPrice": "28",
+      "unitsInStock": 20
+    },
+    {
+      "id": 20,
+      "categoryId": 6,
+      "productName": "Board Game Set",
+      "quantityPerUnit": "1 set",
+      "unitPrice": "18",
+      "unitsInStock": 28
+    },
+    {
+      "id": 21,
+      "categoryId": 2,
+      "productName": "Sunglasses",
+      "quantityPerUnit": "1 pair",
+      "unitPrice": "50",
+      "unitsInStock": 15
+    },
+    {
+      "id": 22,
+      "categoryId": 1,
+      "productName": "Smartwatch",
+      "quantityPerUnit": "1 unit",
+      "unitPrice": "200",
+      "unitsInStock": 10
+    },
+    {
+      "id": 23,
+      "categoryId": 5,
+      "productName": "Yoga Mat",
+      "quantityPerUnit": "1 unit",
+      "unitPrice": "20",
+      "unitsInStock": 60
+    },
+    {
+      "id": 24,
+      "categoryId": 3,
+      "productName": "Essential Oil Diffuser",
+      "quantityPerUnit": "1 unit",
+      "unitPrice": "35",
+      "unitsInStock": 25
+    },
+    {
+      "id": 25,
+      "categoryId": 7,
+      "productName": "Cookbook",
+      "quantityPerUnit": "1 unit",
+      "unitPrice": "15",
+      "unitsInStock": 40
+    },
+    {
+      "id": 26,
+      "categoryId": 4,
+      "productName": "Facial Cleanser",
+      "quantityPerUnit": "1 bottle",
+      "unitPrice": "12",
+      "unitsInStock": 55
+    },
+    {
+      "id": 27,
+      "categoryId": 6,
+      "productName": "Jigsaw Puzzle",
+      "quantityPerUnit": "1 unit",
+      "unitPrice": "10",
+      "unitsInStock": 30
+    },
+    {
+      "id": 28,
+      "categoryId": 8,
+      "productName": "Travel Pillow",
+      "quantityPerUnit": "1 unit",
+      "unitPrice": "18",
+      "unitsInStock": 22
+    },
+    {
+      "id": 29,
+      "categoryId": 2,
+      "productName": "Winter Scarf",
+      "quantityPerUnit": "1 unit",
+      "unitPrice": "12",
+      "unitsInStock": 45
+    },
+    {
+      "id": 30,
+      "categoryId": 5,
+      "productName": "Dumbbell Set",
+      "quantityPerUnit": "1 set",
+      "unitPrice": "50",
+      "unitsInStock": 15
+    },
+    {
+      "id": 31,
+      "categoryId": 3,
+      "productName": "Cushion Cover",
+      "quantityPerUnit": "1 unit",
+      "unitPrice": "8",
+      "unitsInStock": 35
+    },
+    {
+      "id": 32,
+      "categoryId": 7,
+      "productName": "Mystery Novel",
+      "quantityPerUnit": "1 unit",
+      "unitPrice": "12",
+      "unitsInStock": 30
+    },
+    {
+      "id": 33,
+      "categoryId": 6,
+      "productName": "Remote Control Car",
+      "quantityPerUnit": "1 unit",
+      "unitPrice": "25",
+      "unitsInStock": 20
+    },
+    {
+      "id": 34,
+      "categoryId": 1,
+      "productName": "Gaming Mouse",
+      "quantityPerUnit": "1 unit",
+      "unitPrice": "40",
+      "unitsInStock": 18
+    },
+    {
+      "id": 35,
+      "categoryId": 4,
+      "productName": "Anti-Aging Cream",
+      "quantityPerUnit": "1 jar",
+      "unitPrice": "30",
+      "unitsInStock": 25
+    },
+    {
+      "id": 36,
+      "categoryId": 8,
+      "productName": "Travel Blanket",
+      "quantityPerUnit": "1 unit",
+      "unitPrice": "20",
+      "unitsInStock": 40
+    },
+    {
+      "id": 37,
+      "categoryId": 3,
+      "productName": "Desk Organizer",
+      "quantityPerUnit": "1 unit",
+      "unitPrice": "15",
+      "unitsInStock": 28
+    },
+    {
+      "id": 38,
+      "categoryId": 5,
+      "productName": "Hiking Boots",
+      "quantityPerUnit": "1 pair",
+      "unitPrice": "60",
+      "unitsInStock": 12
+    },
+    {
+      "id": 39,
+      "categoryId": 6,
+      "productName": "Painting Set",
+      "quantityPerUnit": "1 set",
+      "unitPrice": "25",
+      "unitsInStock": 15
+    },
+    {
+      "id": 40,
+      "categoryId": 7,
+      "productName": "Biography Book",
+      "quantityPerUnit": "1 unit",
+      "unitPrice": "18",
+      "unitsInStock": 25
+    },
+    {
+      "id": 41,
+      "categoryId": 2,
+      "productName": "Leather Backpack",
+      "quantityPerUnit": "1 unit",
+      "unitPrice": "45",
+      "unitsInStock": 20
+    },
+    {
+      "id": 42,
+      "categoryId": 4,
+      "productName": "Sunscreen Lotion",
+      "quantityPerUnit": "1 bottle",
+      "unitPrice": "10",
+      "unitsInStock": 33
+    },
+    {
+      "id": 43,
+      "categoryId": 1,
+      "productName": "Bluetooth Speaker",
+      "quantityPerUnit": "1 unit",
+      "unitPrice": "35",
+      "unitsInStock": 15
+    },
+    {
+      "id": 44,
+      "categoryId": 8,
+      "productName": "Travel Toiletry Kit",
+      "quantityPerUnit": "1 set",
+      "unitPrice": "15",
+      "unitsInStock": 40
+    },
+    {
+      "id": 45,
+      "categoryId": 3,
+      "productName": "Throw Pillow",
+      "quantityPerUnit": "1 unit",
+      "unitPrice": "8",
+      "unitsInStock": 22
+    },
+    {
+      "id": 46,
+      "categoryId": 6,
+      "productName": "Model Airplane Kit",
+      "quantityPerUnit": "1 set",
+      "unitPrice": "30",
+      "unitsInStock": 18
+    },
+    {
+      "id": 47,
+      "categoryId": 2,
+      "productName": "Fitness Tracker",
+      "quantityPerUnit": "1 unit",
+      "unitPrice": "50",
+      "unitsInStock": 25
+    },
+    {
+      "id": 48,
+      "categoryId": 5,
+      "productName": "Basketball",
+      "quantityPerUnit": "1 unit",
+      "unitPrice": "15",
+      "unitsInStock": 30
+    },
+    {
+      "id": 49,
+      "categoryId": 4,
+      "productName": "Face Mask Set",
+      "quantityPerUnit": "1 set",
+      "unitPrice": "12",
+      "unitsInStock": 28
+    },
+    {
+      "id": 50,
+      "categoryId": 7,
+      "productName": "Science Fiction Book",
+      "quantityPerUnit": "1 unit",
+      "unitPrice": "10",
+      "unitsInStock": 35
+    }
+  ]
+}
